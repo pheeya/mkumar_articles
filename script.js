@@ -21,10 +21,7 @@ req.onload = function (e) {
     top.classList.add("top")
     var company = document.createElement("img");
     company.classList.add("company");
-    var price = document.createElement("img");
-    price.classList.add("price");
     top.appendChild(company);
-    top.appendChild(price);
     card.appendChild(top)
 
 
@@ -62,7 +59,6 @@ req.onload = function (e) {
     // assigning values to dom
     card.style.backgroundColor = s.Color
     company.src = s["Company Image"]
-    price.src = s['Image'];
     time.innerHTML = final_date;
     faq.innerHTML = s["FAQ"]
 
